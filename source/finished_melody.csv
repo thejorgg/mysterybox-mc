@@ -1,0 +1,7 @@
+tick,note,cents,volume_percent,instrument
+1,F5,0,100,harp
+7,D#5,0,95,harp
+13,D#5,0,90,harp
+18,F#4,0,85,harp
+24,B3,0,65,harp
+24,E4,0,90,harp

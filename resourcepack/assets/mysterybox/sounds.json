@@ -1,0 +1,6 @@
+{
+  "teddy_laugh": {
+    "sounds": [{"name": "mysterybox:teddy_laugh", "stream": false}],
+    "subtitle": "subtitles.entity.witch.celebrate"
+  }
+}

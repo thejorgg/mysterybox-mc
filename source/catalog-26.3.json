@@ -1,0 +1,339 @@
+{
+  "version": "26.3",
+  "weapons": [
+    "minecraft:bow",
+    "minecraft:copper_axe",
+    "minecraft:copper_spear",
+    "minecraft:copper_sword",
+    "minecraft:crossbow",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_spear",
+    "minecraft:diamond_sword",
+    "minecraft:golden_axe",
+    "minecraft:golden_spear",
+    "minecraft:golden_sword",
+    "minecraft:iron_axe",
+    "minecraft:iron_spear",
+    "minecraft:iron_sword",
+    "minecraft:mace",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_spear",
+    "minecraft:netherite_sword",
+    "minecraft:stone_axe",
+    "minecraft:stone_spear",
+    "minecraft:stone_sword",
+    "minecraft:trident",
+    "minecraft:wooden_axe",
+    "minecraft:wooden_spear",
+    "minecraft:wooden_sword"
+  ],
+  "armor": [
+    "minecraft:chainmail_boots",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_leggings",
+    "minecraft:copper_boots",
+    "minecraft:copper_chestplate",
+    "minecraft:copper_helmet",
+    "minecraft:copper_leggings",
+    "minecraft:diamond_boots",
+    "minecraft:diamond_chestplate",
+    "minecraft:diamond_helmet",
+    "minecraft:diamond_leggings",
+    "minecraft:elytra",
+    "minecraft:golden_boots",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_helmet",
+    "minecraft:golden_leggings",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_helmet",
+    "minecraft:iron_leggings",
+    "minecraft:leather_boots",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_helmet",
+    "minecraft:leather_leggings",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_leggings",
+    "minecraft:turtle_helmet"
+  ],
+  "tools": [
+    "minecraft:brush",
+    "minecraft:copper_axe",
+    "minecraft:copper_hoe",
+    "minecraft:copper_pickaxe",
+    "minecraft:copper_shovel",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_hoe",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_shovel",
+    "minecraft:fishing_rod",
+    "minecraft:flint_and_steel",
+    "minecraft:golden_axe",
+    "minecraft:golden_hoe",
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_shovel",
+    "minecraft:iron_axe",
+    "minecraft:iron_hoe",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_shovel",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_hoe",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_shovel",
+    "minecraft:shears",
+    "minecraft:stone_axe",
+    "minecraft:stone_hoe",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_shovel",
+    "minecraft:wooden_axe",
+    "minecraft:wooden_hoe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_shovel"
+  ],
+  "potions": [
+    "minecraft:awkward",
+    "minecraft:fire_resistance",
+    "minecraft:harming",
+    "minecraft:healing",
+    "minecraft:infested",
+    "minecraft:invisibility",
+    "minecraft:leaping",
+    "minecraft:long_fire_resistance",
+    "minecraft:long_invisibility",
+    "minecraft:long_leaping",
+    "minecraft:long_night_vision",
+    "minecraft:long_poison",
+    "minecraft:long_regeneration",
+    "minecraft:long_slow_falling",
+    "minecraft:long_slowness",
+    "minecraft:long_strength",
+    "minecraft:long_swiftness",
+    "minecraft:long_turtle_master",
+    "minecraft:long_water_breathing",
+    "minecraft:long_weakness",
+    "minecraft:luck",
+    "minecraft:mundane",
+    "minecraft:night_vision",
+    "minecraft:oozing",
+    "minecraft:poison",
+    "minecraft:regeneration",
+    "minecraft:slow_falling",
+    "minecraft:slowness",
+    "minecraft:strength",
+    "minecraft:strong_harming",
+    "minecraft:strong_healing",
+    "minecraft:strong_leaping",
+    "minecraft:strong_poison",
+    "minecraft:strong_regeneration",
+    "minecraft:strong_slowness",
+    "minecraft:strong_strength",
+    "minecraft:strong_swiftness",
+    "minecraft:strong_turtle_master",
+    "minecraft:swiftness",
+    "minecraft:thick",
+    "minecraft:turtle_master",
+    "minecraft:water",
+    "minecraft:water_breathing",
+    "minecraft:weakness",
+    "minecraft:weaving",
+    "minecraft:wind_charged"
+  ],
+  "smithing_templates": [
+    "minecraft:bolt_armor_trim_smithing_template",
+    "minecraft:coast_armor_trim_smithing_template",
+    "minecraft:dune_armor_trim_smithing_template",
+    "minecraft:eye_armor_trim_smithing_template",
+    "minecraft:flow_armor_trim_smithing_template",
+    "minecraft:host_armor_trim_smithing_template",
+    "minecraft:netherite_upgrade_smithing_template",
+    "minecraft:raiser_armor_trim_smithing_template",
+    "minecraft:rib_armor_trim_smithing_template",
+    "minecraft:sentry_armor_trim_smithing_template",
+    "minecraft:shaper_armor_trim_smithing_template",
+    "minecraft:silence_armor_trim_smithing_template",
+    "minecraft:snout_armor_trim_smithing_template",
+    "minecraft:spire_armor_trim_smithing_template",
+    "minecraft:tide_armor_trim_smithing_template",
+    "minecraft:vex_armor_trim_smithing_template",
+    "minecraft:ward_armor_trim_smithing_template",
+    "minecraft:wayfinder_armor_trim_smithing_template",
+    "minecraft:wild_armor_trim_smithing_template"
+  ],
+  "enchantments": [
+    {
+      "id": "minecraft:aqua_affinity",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:binding_curse",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:blast_protection",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:breach",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:channeling",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:density",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:depth_strider",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:efficiency",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "max_level": 2
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:flame",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:fortune",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:frost_walker",
+      "max_level": 2
+    },
+    {
+      "id": "minecraft:impaling",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:infinity",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:knockback",
+      "max_level": 2
+    },
+    {
+      "id": "minecraft:looting",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:loyalty",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:luck_of_the_sea",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:lunge",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:lure",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:mending",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:multishot",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:piercing",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:power",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:projectile_protection",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:protection",
+      "max_level": 4
+    },
+    {
+      "id": "minecraft:punch",
+      "max_level": 2
+    },
+    {
+      "id": "minecraft:quick_charge",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:respiration",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:riptide",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:sharpness",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:silk_touch",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:smite",
+      "max_level": 5
+    },
+    {
+      "id": "minecraft:soul_speed",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:sweeping_edge",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:swift_sneak",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:thorns",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "max_level": 3
+    },
+    {
+      "id": "minecraft:vanishing_curse",
+      "max_level": 1
+    },
+    {
+      "id": "minecraft:wind_burst",
+      "max_level": 3
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=jLhPToHJ7gM",
+  "source_title": "Call of Duty Zombies - Mystery Box Song | Piano Tutorial",
+  "source_channel": "RazorTranscripts",
+  "description": "Conservative prominent-melody reduction for vanilla harp, identified from the tutorial's visible piano-roll keys and cross-checked against its audio. Intentional adjacent-key dyads and short main-line ornaments remain; octave doubling, most low accompaniment and unsupported spectral attacks are omitted. The upper ostinato is lowered two octaves; the rising and finishing phrase is lowered one octave as a group; the final low resolving dyad retains its register. Equal-tempered pitches replace the previous noisy detuning estimates. This is an arrangement, not a note-perfect reproduction of every tutorial voice.",
+  "verified_from_audio": true,
+  "duration_ticks": 117,
+  "notes_file": "opening_melody.csv",
+  "finished_notes_file": "finished_melody.csv",
+  "reveal_tick": 77,
+  "finished_duration_ticks": 40,
+  "source_duration_seconds": 9.113833333333334,
+  "source_first_attack_seconds": 2.546,
+  "source_finished_cue_seconds": 6.349,
+  "source_retained_end_seconds": 8.346,
+  "source_audio_sha256": "6379b23da1b159fcd01a92f26e88fa9608fb6953b28aa3bf05f61b2fbd617788",
+  "decoded_wav_sha256": "b1f4f23368dccc63f749c3c8d1fe4cc898bbc93947b0b16255aa791d781cb020",
+  "source_video_sha256": "f7eec643b88ddc81e3abbfc772df43f652e0d3598a93690350783c43a07ccb46",
+  "evidence": "Retrieved the exact reference on 2026-09-27 using yt-dlp 2026.08.19 --impersonate chrome, without cookies, browser profiles or credentials: Opus format 251 and 1920x1080 H.264 format 137 at 30000/1001 fps. FFmpeg-decoded audio is stereo PCM, 48000 Hz, 437464 frames. The video contains one performance, not a repeated or slowed demo. Its roughly 2.54-second tutorial lead-in is removed. Visible white/black piano-roll key positions establish note identity; mono 8192-sample Hann STFT with 240-sample hop, 100 ms peak inspection, and 2048-sample narrow-band attack analysis at 1 ms hops cross-check independent fundamentals and re-attacks. The first 5 ms RMS window above 0.001 is centered at 2.5425 s; pitch-band attack rise is near 2.546 s. The finished cadence begins near 6.349 s, approximately 3.80 s after the first attack; it is kept intact rather than splitting at the last two seconds of tutorial-container time. Its dedicated 40-tick window includes the final resolving attack near 7.487 s and decay; RMS falls below 0.001 after about 8.30 s. Opening ticks are round((attack_seconds-2.546)*20)+1. Finished ticks are relative to reveal, starting at 1. Two clearly successive sub-tick opening attacks are separated by one tick instead of becoming accidental chords. Harp pitch 1 is F-sharp4; octave shifts are phrase/voice-wide, not per-note clamping. Comparing the old selection to the new visible keys exposed held-note partials counted as new attacks, incorrect low-note guesses, and an unsupported final G in place of the visible resolving chord. CSV files alone contain the playable score; no reference recording is distributed in the repository or resourcepack.",
+  "limitations": "High confidence in retained pitch classes and the cadence boundary; timing is approximate to one 50 ms game tick. Medium confidence in the voice reduction: the tutorial is polyphonic and its octave doubling is deliberately collapsed, so original register separation, bass accompaniment, sustain and piano timbre are not reproduced. The rising/finishing phrase and upper ostinato use different coherent octave shifts to fit F-sharp3 through F-sharp5. The two visible adjacent-key dyads are intentional source notes, not FFT overtones. Relative volumes are manually balanced for harp, not recovered MIDI velocities. This replaces the prior noisy recording's spectral guesses and does not claim note-for-note fidelity to either every tutorial voice or the original game recording."
+}

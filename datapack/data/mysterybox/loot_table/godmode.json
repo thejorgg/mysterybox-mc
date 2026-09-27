@@ -1,0 +1,250 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 22750
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 10920
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 10920
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 10920
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 10920
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 10920
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "weight": 5850
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 525,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 64
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 525,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 16
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 525,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 16
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 525,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 4
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_box",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bolt_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coast_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dune_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:eye_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flow_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:host_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raiser_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shaper_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snout_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spire_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tide_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vex_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wild_armor_trim_smithing_template",
+          "weight": 525
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bedrock",
+          "weight": 525,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 16
+          }
+        }
+      ]
+    }
+  ]
+}

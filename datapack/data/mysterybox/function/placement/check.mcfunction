@@ -1,0 +1,1 @@
+execute if block ~-1 ~-1 ~ #mysterybox:support if block ~0 ~-1 ~ #mysterybox:support if block ~1 ~-1 ~ #mysterybox:support if block ~-1 ~0 ~ #minecraft:air if block ~-1 ~1 ~ #minecraft:air if block ~0 ~0 ~ #minecraft:air if block ~0 ~1 ~ #minecraft:air if block ~1 ~0 ~ #minecraft:air if block ~1 ~1 ~ #minecraft:air run scoreboard players set #good mb 1

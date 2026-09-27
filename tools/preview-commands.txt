@@ -1,0 +1,20 @@
+# Model-only smoke scene; Java 26.3 with mysterybox-models-26.3.zip enabled.
+# Run in a NEW creative test world with commands enabled, one line at a time.
+# These commands create a small platform at 0 100 0. Do not run in a valued world.
+/fill -4 99 -4 4 99 4 minecraft:stone
+/tp @s 1.8 100.0 -2.8 33 18
+/summon item_display 0.0 100.0 0.0 {Tags:["mb_preview","mb_body"],item:{id:"minecraft:paper",count:1,components:{"minecraft:item_model":"mysterybox:body"}}}
+/summon item_display 0.0 100.875 0.5 {Tags:["mb_preview","mb_lid"],item:{id:"minecraft:paper",count:1,components:{"minecraft:item_model":"mysterybox:lid"}}}
+# Cancel vanilla item rendering's 180-degree Y turn BEFORE the animated left rotation.
+/execute as @e[tag=mb_preview] run data merge entity @s {transformation:{right_rotation:[0f,1f,0f,0f]}}
+# Open the rear-hinged lid over 20 ticks; use [0f,0f,0f,1f] to close.
+/data merge entity @e[tag=mb_lid,limit=1] {start_interpolation:0,interpolation_duration:20,transformation:{left_rotation:[0.79335334f,0f,0f,0.60876143f]}}
+/summon item_display 0.0 100.5625 0.0 {Tags:["mb_preview","mb_shine"],brightness:{block:15,sky:15},item:{id:"minecraft:paper",count:1,components:{"minecraft:item_model":"mysterybox:shine"}}}
+/summon item_display 0.0 103.0625 0.0 {Tags:["mb_preview","mb_beam"],brightness:{block:15,sky:15},item:{id:"minecraft:paper",count:1,components:{"minecraft:item_model":"mysterybox:beam"}}}
+/data merge entity @e[tag=mb_beam,limit=1] {transformation:{scale:[1f,16f,1f]},billboard:"vertical",width:0.75f,height:16f,view_range:8f}
+/summon item_display 0.0 101.0625 0.0 {Tags:["mb_preview","mb_beam_base"],brightness:{block:15,sky:15},item:{id:"minecraft:paper",count:1,components:{"minecraft:item_model":"mysterybox:beam_base"}},transformation:{scale:[1f,2f,1f]},billboard:"vertical",width:0.75f,height:2f,view_range:8f}
+/execute as @e[tag=mb_preview] run data merge entity @s {transformation:{right_rotation:[0f,1f,0f,0f]}}
+# Optional inventory-model check.
+/give @s minecraft:paper[minecraft:item_model="mysterybox:closed"]
+# Remove ONLY these preview entities when finished (platform remains).
+/kill @e[tag=mb_preview]

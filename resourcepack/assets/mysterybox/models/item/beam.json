@@ -1,0 +1,50 @@
+{
+  "credit": "Original cuboid geometry; vanilla spruce planks and bricks",
+  "ambientocclusion": false,
+  "textures": {
+    "atlas": "mysterybox:block/teddy",
+    "spruce": "minecraft:block/spruce_planks",
+    "bricks": "minecraft:block/bricks",
+    "shine": "mysterybox:block/shine",
+    "beam": "mysterybox:block/beam",
+    "beam_base": "mysterybox:block/beam_base",
+    "particle": "minecraft:block/spruce_planks"
+  },
+  "elements": [
+    {
+      "name": "Opaque locator sprite",
+      "from": [
+        2,
+        8,
+        8
+      ],
+      "to": [
+        14,
+        24,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#beam"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#beam"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "edition": "Minecraft Java",
+  "target_version": "26.3",
+  "units": "blocks",
+  "origin": "center of box footprint at ground height",
+  "front": "negative Z",
+  "closed_size_xyz": [2.5, 1.0625, 1.0625],
+  "item_display_right_rotation_xyzw": [0, 1, 0, 0],
+  "parts": {
+    "body": {"item_model": "mysterybox:body", "position": [0, 0, 0]},
+    "lid": {
+      "item_model": "mysterybox:lid",
+      "position": [0, 0.875, 0.5],
+      "closed_quaternion_xyzw": [0, 0, 0, 1],
+      "open_quaternion_xyzw": [0.79335334, 0, 0, 0.60876143],
+      "open_degrees": 105,
+      "interpolation_ticks": 20
+    },
+    "shine": {"item_model": "mysterybox:shine", "position": [0, 0.5625, 0], "size_xyz": [2.5, 1.125, 2.5], "visible_when": "open", "brightness": {"block": 15, "sky": 15}},
+    "beam": {"item_model": "mysterybox:beam", "positions": [[0,3.0625,0],[0,19.0625,0],[0,35.0625,0],[0,51.0625,0],[0,67.0625,0],[0,83.0625,0]], "scale": [1,16,1], "billboard": "vertical", "width": 0.75, "height": 16, "brightness": {"block":15,"sky":15}, "independent_of_lid": true},
+    "beam_down": {"item_model": "mysterybox:beam", "positions": [[0,-19,0],[0,-35,0],[0,-51,0],[0,-67,0],[0,-83,0],[0,-99,0]], "scale": [1,16,1], "billboard": "vertical", "width": 0.75, "height": 16, "brightness": {"block":15,"sky":15}, "independent_of_lid": true},
+    "beam_base": {"item_model": "mysterybox:beam_base", "position": [0,1.0625,0], "scale": [1,2,1], "billboard": "vertical", "width": 0.75, "height": 2, "brightness": {"block":15,"sky":15}, "independent_of_lid": true}
+  },
+  "beam_visibility": {"opaque_shaft": true, "transparent_base": true, "proximity_fade": false, "spin": false, "downward_start_below_box": 3},
+  "inventory_item_model": "mysterybox:closed",
+  "blender_animation": {"fps": 20, "closed_frame": 1, "open_frame": 21, "hold_until_frame": 60},
+  "gameplay_collision": {"footprint_xz": [3, 1], "solid_height": 1, "activation_height": 2, "interaction_columns": 3, "base_block": "minecraft:barrier", "upper_layer_blocks_movement": false},
+  "notes": [
+    "Use item_display transform mode none. Do not apply ground or GUI transforms to world displays.",
+    "Set right_rotation to [0,1,0,0] to cancel vanilla item's internal Y turn; use left_rotation for the lid animation.",
+    "Use explicit decimals in summon X/Z coordinates: integer command coordinates are centered by Minecraft.",
+    "Rotate the entire assembly around Y for other orientations, including the lid hinge offset.",
+    "All wooden faces, including the three lid notches, use minecraft:block/spruce_planks; four front-visible supports use minecraft:block/bricks.",
+    "The two gold question marks are pixel-grid decorations facing opposite ends of the lid. No metal trim or carrying hardware is modeled.",
+    "The simplified closed model stays within the original animation and collision envelope.",
+    "The beam has four double-sided, uncapped pale blue-white walls enclosing a 3x3 block square. Each of twelve independent fixed item displays scales its one-block-tall model to 16 blocks; uniform translucent alpha ranges from 0.12 through 0.28, with an empty model for stage zero. The nearest Overworld player's distance from the box anchor chooses one shared stage for all displays.",
+    "Brightness and emissive pixels affect appearance only; these models do not cast dynamic light.",
+    "Display entities supply no collision, inventory, interaction, payment or reward logic."
+  ]
+}

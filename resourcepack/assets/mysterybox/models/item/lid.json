@@ -1,0 +1,1545 @@
+{
+  "credit": "Original cuboid geometry; vanilla spruce planks and bricks",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "mysterybox:block/teddy",
+    "spruce": "minecraft:block/spruce_planks",
+    "bricks": "minecraft:block/bricks",
+    "shine": "mysterybox:block/shine",
+    "beam": "mysterybox:block/beam",
+    "beam_base": "mysterybox:block/beam_base",
+    "particle": "minecraft:block/spruce_planks"
+  },
+  "elements": [
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        -12,
+        8,
+        -8
+      ],
+      "to": [
+        4,
+        10.5,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        4,
+        8,
+        -8
+      ],
+      "to": [
+        20,
+        10.5,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        20,
+        8,
+        -8
+      ],
+      "to": [
+        28,
+        10.5,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        -12,
+        8,
+        -4
+      ],
+      "to": [
+        4,
+        10.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        4,
+        8,
+        -4
+      ],
+      "to": [
+        20,
+        10.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        20,
+        8,
+        -4
+      ],
+      "to": [
+        28,
+        10.5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        -12,
+        8,
+        0
+      ],
+      "to": [
+        4,
+        10.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        4,
+        8,
+        0
+      ],
+      "to": [
+        20,
+        10.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        20,
+        8,
+        0
+      ],
+      "to": [
+        28,
+        10.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        -12,
+        8,
+        4
+      ],
+      "to": [
+        4,
+        10.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        4,
+        8,
+        4
+      ],
+      "to": [
+        20,
+        10.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid plank",
+      "from": [
+        20,
+        8,
+        4
+      ],
+      "to": [
+        28,
+        10.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid front lip",
+      "from": [
+        -12,
+        7.5,
+        -8.5
+      ],
+      "to": [
+        4,
+        9,
+        -8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid front lip",
+      "from": [
+        4,
+        7.5,
+        -8.5
+      ],
+      "to": [
+        20,
+        9,
+        -8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid front lip",
+      "from": [
+        20,
+        7.5,
+        -8.5
+      ],
+      "to": [
+        28,
+        9,
+        -8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid notch",
+      "from": [
+        -6,
+        10.5,
+        -7
+      ],
+      "to": [
+        -4,
+        11,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid notch",
+      "from": [
+        7,
+        10.5,
+        -7
+      ],
+      "to": [
+        9,
+        11,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce lid notch",
+      "from": [
+        20,
+        10.5,
+        -7
+      ],
+      "to": [
+        22,
+        11,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        0,
+        10.51,
+        3
+      ],
+      "to": [
+        1,
+        10.64,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        1,
+        10.51,
+        3
+      ],
+      "to": [
+        2,
+        10.64,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        2,
+        10.51,
+        3
+      ],
+      "to": [
+        3,
+        10.64,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        -1,
+        10.51,
+        2
+      ],
+      "to": [
+        0,
+        10.64,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        3,
+        10.51,
+        2
+      ],
+      "to": [
+        4,
+        10.64,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        3,
+        10.51,
+        1
+      ],
+      "to": [
+        4,
+        10.64,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        2,
+        10.51,
+        0
+      ],
+      "to": [
+        3,
+        10.64,
+        1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        1,
+        10.51,
+        -1
+      ],
+      "to": [
+        2,
+        10.64,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        1,
+        10.51,
+        -3
+      ],
+      "to": [
+        2,
+        10.64,
+        -2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        15,
+        10.51,
+        3
+      ],
+      "to": [
+        16,
+        10.64,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        15,
+        10.51,
+        1
+      ],
+      "to": [
+        16,
+        10.64,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        14,
+        10.51,
+        0
+      ],
+      "to": [
+        15,
+        10.64,
+        1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        13,
+        10.51,
+        -1
+      ],
+      "to": [
+        14,
+        10.64,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        13,
+        10.51,
+        -2
+      ],
+      "to": [
+        14,
+        10.64,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        17,
+        10.51,
+        -2
+      ],
+      "to": [
+        18,
+        10.64,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        14,
+        10.51,
+        -3
+      ],
+      "to": [
+        15,
+        10.64,
+        -2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        15,
+        10.51,
+        -3
+      ],
+      "to": [
+        16,
+        10.64,
+        -2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    },
+    {
+      "name": "Golden question-mark pixel",
+      "from": [
+        16,
+        10.51,
+        -3
+      ],
+      "to": [
+        17,
+        10.64,
+        -2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    }
+  ]
+}

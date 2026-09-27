@@ -1,0 +1,2 @@
+execute if score #binding_roll mb matches 1..200 if items entity @e[tag=mysterybox.reward,limit=1] contents #minecraft:enchantable/equippable run data modify entity @e[tag=mysterybox.reward,limit=1] item.components."minecraft:enchantments"."minecraft:binding_curse" set value 1
+execute if score #vanishing_roll mb matches 1..200 if items entity @e[tag=mysterybox.reward,limit=1] contents #minecraft:enchantable/vanishing run data modify entity @e[tag=mysterybox.reward,limit=1] item.components."minecraft:enchantments"."minecraft:vanishing_curse" set value 1

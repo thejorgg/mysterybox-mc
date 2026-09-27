@@ -1,0 +1,9 @@
+{
+  "source_asset": "minecraft/sounds/entity/witch/celebrate.ogg",
+  "pitch_multiplier": 1.5,
+  "echo_delay_ms": 33,
+  "echo_gains": [0.48, 0.31, 0.21],
+  "output_gain": 3,
+  "sample_rate": 48000,
+  "description": "Only the witch laugh: three higher-pitched voices at 0, 33 and 66 ms, raised after mixing to remain audible under the separate full vanilla dragon growl. No opening or weapon-finished music is included."
+}

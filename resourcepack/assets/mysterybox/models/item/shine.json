@@ -1,0 +1,185 @@
+{
+  "credit": "Original cuboid geometry; vanilla spruce planks and bricks",
+  "ambientocclusion": false,
+  "textures": {
+    "atlas": "mysterybox:block/teddy",
+    "spruce": "minecraft:block/spruce_planks",
+    "bricks": "minecraft:block/bricks",
+    "shine": "mysterybox:block/shine",
+    "beam": "mysterybox:block/beam",
+    "beam_base": "mysterybox:block/beam_base",
+    "particle": "minecraft:block/spruce_planks"
+  },
+  "elements": [
+    {
+      "name": "Golden opening cone",
+      "from": [
+        -12,
+        8,
+        8
+      ],
+      "to": [
+        28,
+        26,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        }
+      },
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0,
+        "rescale": false
+      }
+    },
+    {
+      "name": "Golden opening cone",
+      "from": [
+        -12,
+        8,
+        8
+      ],
+      "to": [
+        28,
+        26,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        }
+      },
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "Golden opening cone",
+      "from": [
+        -12,
+        8,
+        8
+      ],
+      "to": [
+        28,
+        26,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        }
+      },
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "Golden opening cone cross",
+      "from": [
+        8,
+        8,
+        -12
+      ],
+      "to": [
+        8,
+        26,
+        28
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#shine"
+        }
+      },
+      "shade": false,
+      "light_emission": 15
+    }
+  ]
+}

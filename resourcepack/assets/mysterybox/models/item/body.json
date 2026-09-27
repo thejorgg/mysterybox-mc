@@ -1,0 +1,2382 @@
+{
+  "credit": "Original cuboid geometry; vanilla spruce planks and bricks",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "mysterybox:block/teddy",
+    "spruce": "minecraft:block/spruce_planks",
+    "bricks": "minecraft:block/bricks",
+    "shine": "mysterybox:block/shine",
+    "beam": "mysterybox:block/beam",
+    "beam_base": "mysterybox:block/beam_base",
+    "particle": "minecraft:block/spruce_planks"
+  },
+  "elements": [
+    {
+      "name": "Brick support",
+      "from": [
+        -10.5,
+        8,
+        2
+      ],
+      "to": [
+        -5.5,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        }
+      }
+    },
+    {
+      "name": "Brick support",
+      "from": [
+        -0.5,
+        8,
+        2
+      ],
+      "to": [
+        4.5,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        }
+      }
+    },
+    {
+      "name": "Brick support",
+      "from": [
+        11.5,
+        8,
+        2
+      ],
+      "to": [
+        16.5,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        }
+      }
+    },
+    {
+      "name": "Brick support",
+      "from": [
+        21.5,
+        8,
+        2
+      ],
+      "to": [
+        26.5,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            4
+          ],
+          "texture": "#bricks"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            12
+          ],
+          "texture": "#bricks"
+        }
+      }
+    },
+    {
+      "name": "Recessed spruce floor",
+      "from": [
+        -11,
+        12,
+        1
+      ],
+      "to": [
+        5,
+        13,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            14,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Recessed spruce floor",
+      "from": [
+        5,
+        12,
+        1
+      ],
+      "to": [
+        21,
+        13,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Recessed spruce floor",
+      "from": [
+        21,
+        12,
+        1
+      ],
+      "to": [
+        27,
+        13,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            6,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            14,
+            1
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            14
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            14
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        13,
+        0
+      ],
+      "to": [
+        4,
+        16,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        13,
+        0
+      ],
+      "to": [
+        20,
+        16,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        13,
+        0
+      ],
+      "to": [
+        28,
+        16,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        13,
+        14.5
+      ],
+      "to": [
+        4,
+        16,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        13,
+        14.5
+      ],
+      "to": [
+        20,
+        16,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        13,
+        14.5
+      ],
+      "to": [
+        28,
+        16,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        -12,
+        13,
+        1.5
+      ],
+      "to": [
+        -10.5,
+        16,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        26.5,
+        13,
+        1.5
+      ],
+      "to": [
+        28.0,
+        16,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        16,
+        0
+      ],
+      "to": [
+        4,
+        19,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        16,
+        0
+      ],
+      "to": [
+        20,
+        19,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        16,
+        0
+      ],
+      "to": [
+        28,
+        19,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        16,
+        14.5
+      ],
+      "to": [
+        4,
+        19,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        16,
+        14.5
+      ],
+      "to": [
+        20,
+        19,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        16,
+        14.5
+      ],
+      "to": [
+        28,
+        19,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        -12,
+        16,
+        1.5
+      ],
+      "to": [
+        -10.5,
+        19,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        26.5,
+        16,
+        1.5
+      ],
+      "to": [
+        28.0,
+        19,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        19,
+        0
+      ],
+      "to": [
+        4,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        19,
+        0
+      ],
+      "to": [
+        20,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        19,
+        0
+      ],
+      "to": [
+        28,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        -12,
+        19,
+        14.5
+      ],
+      "to": [
+        4,
+        22,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        4,
+        19,
+        14.5
+      ],
+      "to": [
+        20,
+        22,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Long spruce side plank",
+      "from": [
+        20,
+        19,
+        14.5
+      ],
+      "to": [
+        28,
+        22,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        -12,
+        19,
+        1.5
+      ],
+      "to": [
+        -10.5,
+        22,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end plank",
+      "from": [
+        26.5,
+        19,
+        1.5
+      ],
+      "to": [
+        28.0,
+        22,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            3
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        -12,
+        21.5,
+        -0.5
+      ],
+      "to": [
+        4,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        4,
+        21.5,
+        -0.5
+      ],
+      "to": [
+        20,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        20,
+        21.5,
+        -0.5
+      ],
+      "to": [
+        28,
+        22,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        -12,
+        21.5,
+        14.5
+      ],
+      "to": [
+        4,
+        22,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        4,
+        21.5,
+        14.5
+      ],
+      "to": [
+        20,
+        22,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce upper rim",
+      "from": [
+        20,
+        21.5,
+        14.5
+      ],
+      "to": [
+        28,
+        22,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            2.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end rim",
+      "from": [
+        -12,
+        21.5,
+        1.5
+      ],
+      "to": [
+        -10,
+        22,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    },
+    {
+      "name": "Spruce end rim",
+      "from": [
+        26,
+        21.5,
+        1.5
+      ],
+      "to": [
+        28,
+        22,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            0.5
+          ],
+          "texture": "#spruce"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.0
+          ],
+          "texture": "#spruce"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.0
+          ],
+          "texture": "#spruce"
+        }
+      }
+    }
+  ]
+}
