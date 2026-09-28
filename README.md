@@ -347,6 +347,8 @@ resource-pack-prompt={"text":"Download the server resource pack for Mystery Box 
 require-resource-pack=true
 ```
 
+The server-side confguration for the resource pack alongside it's SHA1 is in the latest release.
+
 With `require-resource-pack=true`, declining the download disconnects the player. Use `false` if it should be optional; players who decline will not see the intended models or hear the custom laugh. Players can choose **Prompt** or **Enabled** for **Server Resource Packs** in the multiplayer server entry.
 
 `resource-pack-id` is optional: the server derives an ID from the URL if omitted. A host managing stable pack identities may supply its own valid UUID. This is separate from the SHA-1 checksum.
